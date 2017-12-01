@@ -8,4 +8,4 @@ def my_find(collection)
   end
 end
 collection=(1..100).to_a
-my_find(collection) {|1| 1 % 3 == 0 and 1 % 5
+my_find(collection) {|1| 1 % 3 == 0 and 1 % 5}
